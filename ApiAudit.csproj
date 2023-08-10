@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<UserSecretsId>3e41ea01-dce8-44e3-bdbf-2a8d025e0d46</UserSecretsId>
+		<InvariantGlobalization>true</InvariantGlobalization>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Audit.HttpClient" Version="21.0.3" />
+		<PackageReference Include="Audit.NET" Version="21.0.3" />
+		<PackageReference Include="Audit.NET.SqlServer" Version="21.0.3" />
+		<PackageReference Include="Audit.SignalR" Version="21.0.3" />
+		<PackageReference Include="BscModel" Version="2023.8.8.194823" />
+		<PackageReference Include="Dapper" Version="2.0.143" />
+		<PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0-preview3.23201.1" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0-preview.6.23329.11" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.Analyzers" Version="8.0.0-preview.6.23329.11" />
+	</ItemGroup>
+
+</Project>

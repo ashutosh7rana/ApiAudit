@@ -1,0 +1,9 @@
+bin/**
+.vs/**
+obj/**
+.config/dotnet-tools.json
+Properties/**
+
+ApiAudit.csproj.user
+web.config
+web.Release.config
